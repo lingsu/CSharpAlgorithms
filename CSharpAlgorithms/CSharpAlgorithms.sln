@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{E9FA1008-8BA3-432E-A00F-0E216B1F8242}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStructures\DataStructures.csproj", "{E9FA1008-8BA3-432E-A00F-0E216B1F8242}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Test", "DataStructures.Test\DataStructures.Test.csproj", "{9BCD99FD-92AE-4659-BFE6-AFF311B904D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.Test", "DataStructures.Test\DataStructures.Test.csproj", "{9BCD99FD-92AE-4659-BFE6-AFF311B904D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithems", "Algorithems\Algorithems.csproj", "{F2DA580B-00BA-4250-893A-A3A6E36F60EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithems", "Algorithems\Algorithems.csproj", "{F2DA580B-00BA-4250-893A-A3A6E36F60EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithems.Test", "Algorithems.Test\Algorithems.Test.csproj", "{259F7A43-567E-40A7-B50F-6206574C1DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithems.Test", "Algorithems.Test\Algorithems.Test.csproj", "{259F7A43-567E-40A7-B50F-6206574C1DB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FEDF395B-6C9B-46CE-87DF-02517843C6DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BCD99FD-92AE-4659-BFE6-AFF311B904D4} = {FEDF395B-6C9B-46CE-87DF-02517843C6DF}
+		{259F7A43-567E-40A7-B50F-6206574C1DB0} = {FEDF395B-6C9B-46CE-87DF-02517843C6DF}
 	EndGlobalSection
 EndGlobal
